@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.text{
+    color: orange;
+}
+
+.navbar{
+    background-color: black;
+    color: #fff;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.list li{
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text{
+    color: orange;
+}
+
+
+.section_form{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.section_form h2{
+    margin-top: 50px;
+}
+.name_form input{
+    width: 1000px;
+    height: 50px;
+}
+.email_form input{
+    width: 1000px;
+    height: 50px;
+}
+
+.name_form,.email_form,.coment_form{
+    width: 1000px;
+    margin-top: 50px;
+}
+.section_form button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+}
+
+
+.contact{
+    display: flex;
+    background-color: gray;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.loc,.numb,.mas{
+    width: 200px;
+    
+}
+.contact h2{
+    margin-top: 20px;
+}
+
+#footer{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 20px 0;
+}
